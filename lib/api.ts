@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Change this to your Render URL once deployed. For local dev, use your machine's WiFi IP.
-export const BASE_URL = 'http://192.168.31.222:3000/api';
+export const BASE_URL = 'https://smartcare-backend-8s0k.onrender.com/api';
 
 async function getToken() {
   return AsyncStorage.getItem('auth_token');
